@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "==1.1.1"
+pymongo = "==3.8.0"
+mongoengine = "==0.18.2"
+waitress = "*"
+requests = "*"
+dnspython = "*"
+
+[requires]
+python_version = "3.7"
